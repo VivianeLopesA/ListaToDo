@@ -94,6 +94,8 @@ namespace ListaToDo.Controllers
         [HttpPost]
         public IActionResult Edit(Atividade atividade)
         {
+            
+
             if (ModelState.IsValid)
             {
                 var atividadeConfirmada = _atividades.FirstOrDefault(c => c.Id == atividade.Id);
@@ -101,18 +103,14 @@ namespace ListaToDo.Controllers
                 {
                     atividadeConfirmada.atividadeTitulo = atividade.atividadeTitulo;
                     atividadeConfirmada.descricaoAtividade = atividade.descricaoAtividade;
-					atividadeConfirmada.categoriaAtividade = atividade.categoriaAtividade.Trim().ToUpper();
+					atividadeConfirmada.categoriaAtividade = atividade.categoriaAtividade;
+                    atividadeConfirmada.dataLimiteAtividade = atividade.dataLimiteAtividade;
 
-					if (atividade.categoriaAtividade == "DONE")
+                    if (atividade.categoriaAtividade.Contains("Done"))
                     {
                         atividadeConfirmada.dataLimiteAtividade = DateOnly.FromDateTime(DateTime.Now);
                     }
-                    else
-                    {
-                        atividadeConfirmada.dataLimiteAtividade = atividade.dataLimiteAtividade;
-
-					}
-                    
+  
                     
 
                 }
@@ -132,7 +130,7 @@ namespace ListaToDo.Controllers
                 foreach (var atividade in _atividades)
                 {
 
-                    if (atividade.categoriaAtividade.ToUpper().Trim() == "TO DO" && !_atividadeToDo.Contains(atividade))
+                    if (atividade.categoriaAtividade.Contains("To Do") && !_atividadeToDo.Contains(atividade))
                     {
 
                         _atividadeToDo.Add(atividade);
@@ -153,19 +151,26 @@ namespace ListaToDo.Controllers
                 foreach (var atividade in _atividades)
                 {
 
-                    if (atividade.categoriaAtividade.ToUpper().Trim() == "DONE" && !_atividadeToDo.Contains(atividade))
+                    if (atividade.categoriaAtividade.Contains("Done") && !_atividadeDone.Contains(atividade))
                     {
 
                         _atividadeDone.Add(atividade);
 
                     }
                 }
+                
+            
 
             }
+            
             return View(_atividadeDone);
+
+            
         }
 
-
+       
 
     }
+
+    
 }

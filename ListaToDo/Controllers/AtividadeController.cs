@@ -101,8 +101,19 @@ namespace ListaToDo.Controllers
                 {
                     atividadeConfirmada.atividadeTitulo = atividade.atividadeTitulo;
                     atividadeConfirmada.descricaoAtividade = atividade.descricaoAtividade;
-                    atividadeConfirmada.dataLimiteAtividade = atividade.dataLimiteAtividade;
-                    atividadeConfirmada.categoriaAtividade = atividade.categoriaAtividade;
+					atividadeConfirmada.categoriaAtividade = atividade.categoriaAtividade.Trim().ToUpper();
+
+					if (atividade.categoriaAtividade == "DONE")
+                    {
+                        atividadeConfirmada.dataLimiteAtividade = DateOnly.FromDateTime(DateTime.Now);
+                    }
+                    else
+                    {
+                        atividadeConfirmada.dataLimiteAtividade = atividade.dataLimiteAtividade;
+
+					}
+                    
+                    
 
                 }
 

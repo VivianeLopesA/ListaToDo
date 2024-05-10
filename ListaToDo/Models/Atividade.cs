@@ -14,11 +14,12 @@ namespace ListaToDo.Models
         public string? descricaoAtividade {  get; set; }
 
         [Display(Name = "Data da Criação")]
-        //[DataType(DataType.Date)]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:###,##0.00}")]
+
         public DateOnly dataAtividadeCriada { get; set; }
 
         [Display(Name = "Data Limite")]
-        //[DataType(DataType.Date)]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:###,##0.00}")]
         public DateOnly dataLimiteAtividade { get; set; }
 
         [Display(Name = "Categoria")]

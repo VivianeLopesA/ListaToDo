@@ -28,3 +28,4 @@ C:\DecolaTech\Aula20\ListaToDo\ListaToDo\obj\Debug\net8.0\refint\ListaToDo.dll
 C:\DecolaTech\Aula20\ListaToDo\ListaToDo\obj\Debug\net8.0\ListaToDo.pdb
 C:\DecolaTech\Aula20\ListaToDo\ListaToDo\obj\Debug\net8.0\ListaToDo.genruntimeconfig.cache
 C:\DecolaTech\Aula20\ListaToDo\ListaToDo\obj\Debug\net8.0\ref\ListaToDo.dll
+C:\DecolaTech\Aula20\ListaToDo\ListaToDo\obj\Debug\net8.0\ListaToDo.sourcelink.json

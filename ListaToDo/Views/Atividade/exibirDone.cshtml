@@ -1,0 +1,36 @@
+﻿@model List<Atividade>
+
+<p>
+    <a asp-action="Create">Adicionar item em Lista</a>
+</p>
+
+<h1>Atividades Done</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Descrição da Atividade</th>
+            <th>Data Adicionada em</th>
+            <th>Data Limite</th>
+            <th>Categoria</th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var list in Model)
+        {
+
+            <tr>
+                <td>@list.atividadeTitulo</td>
+                <td>@list.descricaoAtividade</td>
+                <td>@list.dataAtividadeCriada</td>
+                <td>@list.dataLimiteAtividade</td>
+                <td>@list.categoriaAtividade</td>
+            </tr>
+
+        }
+    </tbody>
+    <a asp-action="Index" class="btn btn-secondary">Voltar a Home</a>
+</table>

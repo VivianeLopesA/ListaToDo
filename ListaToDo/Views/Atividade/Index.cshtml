@@ -1,0 +1,50 @@
+﻿@model List<Atividade>
+
+<p>
+	<div class="row text-center">
+		<div class="col-4">
+			<a asp-action="Create" class="btn btn-primary btn-lg" style="background-color: purple; color: white;">Adicionar item em Lista</a>
+		</div>
+		<div class="col-4">
+			<a asp-action="exibirToDo" class="btn btn-primary btn-lg" style="background-color: lightpink; color: white;">Exibir Lista To Do</a>
+		</div>
+		<div class="col-4">
+			<a asp-action="exibirDone" class="btn btn-primary btn-lg" style="background-color: green; color: white;">Exibir Lista Done</a>
+		</div>
+	</div>
+</p>
+
+<h1>Atividades Cadastradas</h1>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Título</th>
+			<th>Descrição da Atividade</th>
+			<th>Data Adicionada em</th>
+			<th>Data Limite</th>
+			<th>Categoria</th>
+
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var list in Model)
+		{
+
+			<tr>
+				<td>@list.atividadeTitulo</td>
+				<td>@list.descricaoAtividade</td>
+				<td>@list.dataAtividadeCriada</td>
+				<td>@list.dataLimiteAtividade</td>
+				<td>@list.categoriaAtividade</td>
+				<td>
+					<a asp-action="Edit" asp-route-id="@list.Id" class="btn btn-info">Editar</a> |
+					<a asp-action="Delete" asp-route-id="@list.Id" class="btn btn-danger">Deletar</a> |
+					<a asp-action="Detail" asp-route-id="@list.Id" class="btn btn-warning">Detalhes</a>
+				</td>
+			</tr>
+
+		}
+	</tbody>
+</table>

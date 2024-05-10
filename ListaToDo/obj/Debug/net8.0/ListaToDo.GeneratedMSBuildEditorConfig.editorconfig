@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ListaToDo
+build_property.RootNamespace = ListaToDo
+build_property.ProjectDir = C:\DecolaTech\Aula20\ListaToDo\ListaToDo\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\DecolaTech\Aula20\ListaToDo\ListaToDo
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/DecolaTech/Aula20/ListaToDo/ListaToDo/Views/Atividade/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DecolaTech/Aula20/ListaToDo/ListaToDo/Views/Atividade/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DecolaTech/Aula20/ListaToDo/ListaToDo/Views/Atividade/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DecolaTech/Aula20/ListaToDo/ListaToDo/Views/Atividade/exibirDone.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlXGV4aWJpckRvbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DecolaTech/Aula20/ListaToDo/ListaToDo/Views/Atividade/exibirToDo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlXGV4aWJpclRvRG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DecolaTech/Aula20/ListaToDo/ListaToDo/Views/Atividade/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdmlkYWRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DecolaTech/Aula20/ListaToDo/ListaToDo/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DecolaTech/Aula20/ListaToDo/ListaToDo/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DecolaTech/Aula20/ListaToDo/ListaToDo/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DecolaTech/Aula20/ListaToDo/ListaToDo/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DecolaTech/Aula20/ListaToDo/ListaToDo/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DecolaTech/Aula20/ListaToDo/ListaToDo/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DecolaTech/Aula20/ListaToDo/ListaToDo/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qcoa48aasu

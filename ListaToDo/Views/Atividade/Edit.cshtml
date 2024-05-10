@@ -1,0 +1,30 @@
+﻿@model Atividade
+
+<h2>Editar Atividade</h2>
+
+<form asp-action="Edit" method="post">
+	<input type="hidden" asp-for="Id" />
+	<div class="form-group">
+		<label asp-for="atividadeTitulo" class="control-label"></label>
+		<input asp-for="atividadeTitulo" class="form-control" />
+		<span asp-validation-for="atividadeTitulo" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="descricaoAtividade" class="control-label"></label>
+		<input asp-for="descricaoAtividade" class="form-control" />
+		<span asp-validation-for="descricaoAtividade" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="dataLimiteAtividade" class="control-label"></label>
+		<input asp-for="dataLimiteAtividade" class="form-control" type="date" />
+		<span asp-validation-for="dataLimiteAtividade" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="categoriaAtividade" class="control-label"></label>
+		<input asp-for="categoriaAtividade" class="form-control" />
+		<span asp-validation-for="categoriaAtividade" class="text-danger"></span>
+	</div>
+
+	<button type="submit" class="btn btn-primary">Salvar</button>
+	<a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

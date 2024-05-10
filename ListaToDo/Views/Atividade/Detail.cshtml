@@ -1,0 +1,29 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Atividade
+
+<h1>Detalhes da Atividades</h1>
+
+<br />
+Título : @Model.atividadeTitulo
+<br />
+Descrição: @Model.descricaoAtividade
+
+<br />
+
+Data da criação da atividade: @Model.dataAtividadeCriada
+
+<br />
+
+Data da Limite da atividade: @Model.dataLimiteAtividade
+
+<br />
+
+Categoria: @Model.categoriaAtividade
+
+<br /> 
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-info">Editar</a> |
+<a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">Deletar</a> 

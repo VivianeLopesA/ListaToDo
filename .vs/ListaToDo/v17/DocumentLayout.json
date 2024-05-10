@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DecolaTech\\Aula20\\ListaToDo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3716CFFC-4AC1-46E7-A64C-B84B2D198DC1}|ListaToDo\\ListaToDo.csproj|c:\\decolatech\\aula20\\listatodo\\listatodo\\views\\atividade\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3716CFFC-4AC1-46E7-A64C-B84B2D198DC1}|ListaToDo\\ListaToDo.csproj|solutionrelative:listatodo\\views\\atividade\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3716CFFC-4AC1-46E7-A64C-B84B2D198DC1}|ListaToDo\\ListaToDo.csproj|c:\\decolatech\\aula20\\listatodo\\listatodo\\views\\atividade\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3716CFFC-4AC1-46E7-A64C-B84B2D198DC1}|ListaToDo\\ListaToDo.csproj|solutionrelative:listatodo\\views\\atividade\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3716CFFC-4AC1-46E7-A64C-B84B2D198DC1}|ListaToDo\\ListaToDo.csproj|c:\\decolatech\\aula20\\listatodo\\listatodo\\views\\atividade\\exibirtodo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3716CFFC-4AC1-46E7-A64C-B84B2D198DC1}|ListaToDo\\ListaToDo.csproj|solutionrelative:listatodo\\views\\atividade\\exibirtodo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3716CFFC-4AC1-46E7-A64C-B84B2D198DC1}|ListaToDo\\ListaToDo.csproj|c:\\decolatech\\aula20\\listatodo\\listatodo\\views\\atividade\\exibirdone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3716CFFC-4AC1-46E7-A64C-B84B2D198DC1}|ListaToDo\\ListaToDo.csproj|solutionrelative:listatodo\\views\\atividade\\exibirdone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3716CFFC-4AC1-46E7-A64C-B84B2D198DC1}|ListaToDo\\ListaToDo.csproj|c:\\decolatech\\aula20\\listatodo\\listatodo\\controllers\\atividadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3716CFFC-4AC1-46E7-A64C-B84B2D198DC1}|ListaToDo\\ListaToDo.csproj|solutionrelative:listatodo\\controllers\\atividadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3716CFFC-4AC1-46E7-A64C-B84B2D198DC1}|ListaToDo\\ListaToDo.csproj|c:\\decolatech\\aula20\\listatodo\\listatodo\\models\\atividade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3716CFFC-4AC1-46E7-A64C-B84B2D198DC1}|ListaToDo\\ListaToDo.csproj|solutionrelative:listatodo\\models\\atividade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "exibirDone.cshtml",
+              "DocumentMoniker": "C:\\DecolaTech\\Aula20\\ListaToDo\\ListaToDo\\Views\\Atividade\\exibirDone.cshtml",
+              "RelativeDocumentMoniker": "ListaToDo\\Views\\Atividade\\exibirDone.cshtml",
+              "ToolTip": "C:\\DecolaTech\\Aula20\\ListaToDo\\ListaToDo\\Views\\Atividade\\exibirDone.cshtml",
+              "RelativeToolTip": "ListaToDo\\Views\\Atividade\\exibirDone.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T16:35:36.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "exibirToDo.cshtml",
+              "DocumentMoniker": "C:\\DecolaTech\\Aula20\\ListaToDo\\ListaToDo\\Views\\Atividade\\exibirToDo.cshtml",
+              "RelativeDocumentMoniker": "ListaToDo\\Views\\Atividade\\exibirToDo.cshtml",
+              "ToolTip": "C:\\DecolaTech\\Aula20\\ListaToDo\\ListaToDo\\Views\\Atividade\\exibirToDo.cshtml",
+              "RelativeToolTip": "ListaToDo\\Views\\Atividade\\exibirToDo.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T16:16:43.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\DecolaTech\\Aula20\\ListaToDo\\ListaToDo\\Views\\Atividade\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ListaToDo\\Views\\Atividade\\Edit.cshtml",
+              "ToolTip": "C:\\DecolaTech\\Aula20\\ListaToDo\\ListaToDo\\Views\\Atividade\\Edit.cshtml",
+              "RelativeToolTip": "ListaToDo\\Views\\Atividade\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T14:34:29.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Atividade.cs",
+              "DocumentMoniker": "C:\\DecolaTech\\Aula20\\ListaToDo\\ListaToDo\\Models\\Atividade.cs",
+              "RelativeDocumentMoniker": "ListaToDo\\Models\\Atividade.cs",
+              "ToolTip": "C:\\DecolaTech\\Aula20\\ListaToDo\\ListaToDo\\Models\\Atividade.cs",
+              "RelativeToolTip": "ListaToDo\\Models\\Atividade.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T12:20:08.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AtividadeController.cs",
+              "DocumentMoniker": "C:\\DecolaTech\\Aula20\\ListaToDo\\ListaToDo\\Controllers\\AtividadeController.cs",
+              "RelativeDocumentMoniker": "ListaToDo\\Controllers\\AtividadeController.cs",
+              "ToolTip": "C:\\DecolaTech\\Aula20\\ListaToDo\\ListaToDo\\Controllers\\AtividadeController.cs",
+              "RelativeToolTip": "ListaToDo\\Controllers\\AtividadeController.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAiwJQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T11:44:00.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\DecolaTech\\Aula20\\ListaToDo\\ListaToDo\\Views\\Atividade\\Index.cshtml",
+              "RelativeDocumentMoniker": "ListaToDo\\Views\\Atividade\\Index.cshtml",
+              "ToolTip": "C:\\DecolaTech\\Aula20\\ListaToDo\\ListaToDo\\Views\\Atividade\\Index.cshtml",
+              "RelativeToolTip": "ListaToDo\\Views\\Atividade\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T11:44:23.643Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
